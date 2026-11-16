@@ -1,4 +1,8 @@
-# Token Radar — token-radar-01 entry
+# -token-radar-01
+
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/wellforever1024/-token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/wellforever1024/-token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 A radar for pre-token protocols: every protocol on the snapshot's watchlist
 (TVL ≥ $50M, no token on record), plus every pre-token protocol below that
@@ -22,7 +26,9 @@ overturn what its size says. No protocol name is ever special-cased.
 
 ## Run it
 
-    mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
+```
 
 `main.ts` reads the sealed snapshot, writes `board.json` (the ranked rows),
 `data.js` (the dashboard's dataset), copies `dashboard/` and `screenshots/`,
@@ -39,3 +45,7 @@ Screenshots are taken from the built dashboard with headless Chromium at
 - `dashboard/` — the page (index.html, app.css, app.js)
 - `screenshots/` — three screenshots of the page
 - `vendor/makefun-board.ts` — the kit's dossier library, verbatim
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=akq7csc6&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
